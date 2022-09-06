@@ -18,4 +18,8 @@ class ApplicationController < Sinatra::Base
     blocker.to_json
   end
 
+  get "/blockers/:tag" do
+    Blocker.where("tag = ?", params[:tag]).to_json
+  end
+
 end

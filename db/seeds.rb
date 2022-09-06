@@ -12,49 +12,49 @@ Blocker.create([
   {
     username: "Onan",
     description: "How to loop though an array in ruby",
-    tag: "Ruby",
+    tag: "ruby",
     solution: "Use .map, .each, .select, .sum",
     user_id: "#{onan.id}"
   },
   {
     username: "Mike",
     description: "How to loop though an array in ruby",
-    tag: "JavaScript",
+    tag: "javascript",
     solution: "Use .map, .reduce, .filter",
     user_id: "#{mike.id}"
   },
   {
     username: "Rachel",
     description: "How to create a new react application.",
-    tag: "React",
+    tag: "react",
     solution: "Use npx create-react-app <appname>",
     user_id: "#{rachel.id}"
   },
   {
     username: "Onan",
     description: "How to create to run active record migrations",
-    tag: "Ruby",
+    tag: "ruby",
     solution: "Use rake task db:migrate",
     user_id: "#{onan.id}"
   },
   {
     username: "Rachel",
     description: "How to create a new react application.",
-    tag: "React",
+    tag: "react",
     solution: "Use npx create-react-app <appname>",
     user_id: "#{rachel.id}"
   },
   {
     username: "Rachel",
     description: "How to create a new react application.",
-    tag: "React",
+    tag: "react",
     solution: "Use npx create-react-app <appname>",
     user_id: "#{onan.id}"
   },
   {
     username: "Rachel",
     description: "How to create a new react application.",
-    tag: "React",
+    tag: "react",
     solution: "Use npx create-react-app <appname>",
     user_id: "#{mike.id}"
   }
