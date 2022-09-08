@@ -3,7 +3,7 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/blockers" do
-    blockers = Blocker.all
+    blockers = Blocker.all.order(created_at: :desc)
     blockers.to_json
   end
 
@@ -19,7 +19,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/blockers/:tag" do
-    Blocker.where("tag = ?", params[:tag]).to_json
+    Blocker.where("tag = ?", params[:tag]).order(created_at: :desc).to_json
   end
 
 end
